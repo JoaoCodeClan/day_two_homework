@@ -3,9 +3,13 @@ def return_10
 end
 
 def add(firstnumber,secondnumber)
-  firstnumber+secondnumber
+  return firstnumber+secondnumber
 end
 
 def subtract(firstnumber,secondnumber)
   return firstnumber-secondnumber
+end
+
+def multiply(firstnumber,secondnumber)
+  return firstnumber * secondnumber
 end
