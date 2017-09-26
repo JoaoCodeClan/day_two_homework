@@ -16,4 +16,8 @@ end
 
 def divide(firstnumber,secondnumber)
   return firstnumber / secondnumber
-end 
+end
+
+def length_of_string(word)
+  return word.length
+end
