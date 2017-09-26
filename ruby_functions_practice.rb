@@ -71,3 +71,7 @@ end
 def volume_of_cube(side)
   return side*side*side
 end
+
+def volume_of_sphere(radius)
+  return 4.fdiv(3)*Math::PI*3**3
+end
