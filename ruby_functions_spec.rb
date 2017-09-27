@@ -75,7 +75,7 @@ class Functions_Practice < MiniTest::Test
     #arrange
     side = 3
     #action
-   result = volume_of_cube(3)
+   result = volume_of_cube(side)
    #result
     assert_equal(27,result)
 
@@ -85,7 +85,7 @@ class Functions_Practice < MiniTest::Test
   def test_volume_of_sphere()
     #add test code here
     radius = 3
-    result = volume_of_sphere(3)
+    result = volume_of_sphere(radius)
     assert_equal(113.09733552923254,result)
   end
 
@@ -93,7 +93,7 @@ class Functions_Practice < MiniTest::Test
   def test_fahrenheit_to_celsius()
     #add test code here
     temp = 100
-    result = fahrenheit_to_celsius(100)
+    result = fahrenheit_to_celsius(temp)
     assert_equal(37, result)
   end
 
