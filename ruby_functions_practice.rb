@@ -1,21 +1,21 @@
-def return_10
+def return_10()
   return 10
 end
 
-def add(firstnumber,secondnumber)
-  return firstnumber+secondnumber
+def add(first_number,second_number)
+  return first_number+second_number
 end
 
-def subtract(firstnumber,secondnumber)
-  return firstnumber-secondnumber
+def subtract(first_number,second_number)
+  return first_number-second_number
 end
 
-def multiply(firstnumber,secondnumber)
-  return firstnumber * secondnumber
+def multiply(first_number,second_number)
+  return first_number * second_number
 end
 
-def divide(firstnumber,secondnumber)
-  return firstnumber / secondnumber
+def divide(first_number,second_number)
+  return first_number / second_number
 end
 
 def length_of_string(word)
